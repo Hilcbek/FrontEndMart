@@ -5,7 +5,7 @@ import { Home } from "./pages/Home"
 import { Footer } from "./pages/Footer"
 function App() {
   return (
-    <>
+    <div className="overflow-x-hidden">
       <BrowserRouter>
         <Nav />
         <Routes>
@@ -13,7 +13,7 @@ function App() {
         </Routes>
         <Footer />
       </BrowserRouter>
-    </>
+    </div>
   )
 }
 

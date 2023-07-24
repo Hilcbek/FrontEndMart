@@ -9,7 +9,7 @@
   transition: .5s all linear;
   scroll-behavior: smooth;
 }
-body{
+html{
   overflow-x: hidden;
 }
 *::-webkit-scrollbar{
