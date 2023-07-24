@@ -16,7 +16,7 @@ export const Catagory = ({data}) => {
         setCounter(income)
     }
   return (
-    <div onMouseOver={() => ChangeImage(1,this)} onMouseOut={() => ChangeImage(2,this)} className='cursor-pointer'>
+    <div onMouseOver={() => ChangeImage(1,this)} onMouseOut={() => ChangeImage(2,this)} className='cursor-pointer z-[999]'>
         <div>
             <img src={counter === 1 ? data.one : data.two} alt="" />
         </div>
