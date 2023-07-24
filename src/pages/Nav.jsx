@@ -15,7 +15,7 @@ export const Nav = () => {
     }
   return (
     <nav className={`bg-[#fcb800] xs:fixed xl:static transition_cubic  w-full nav z-[999] ${scroll ? 'xs:py-1 xl:py-0' : 'xs:py-0 xl:py-0'}`}>
-        <div className={`flex xs:w-11/12 xl:w-10/12 mx-auto items-center justify-between py-1`}>
+        <div className={`flex xs:w-11/12 xl:w-10/12 mx-auto xs:px-4 sm:px-0 items-center justify-between py-1`}>
             <ul className='flex items-center justify-center xs:w-full xl:w-3/12'>
                 <Link to={'/'} className='xs:w-full xl:w-52'>
                     <img src="https://martretha.com/wp-content/uploads/2022/08/logo.png" alt="" />
