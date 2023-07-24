@@ -16,8 +16,8 @@ export const Catagory = ({data}) => {
         setCounter(income)
     }
   return (
-    <div className='cursor-pointer'>
-        <div onMouseOver={() => ChangeImage(1,this)} onMouseOut={() => ChangeImage(2,this)}>
+    <div onMouseOver={() => ChangeImage(1,this)} onMouseOut={() => ChangeImage(2,this)} className='cursor-pointer'>
+        <div>
             <img src={counter === 1 ? data.one : data.two} alt="" />
         </div>
         <div className='my-2 relative overflow-hidden flex items-center justify-between px-2'>
