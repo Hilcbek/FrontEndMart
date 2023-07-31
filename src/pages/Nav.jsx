@@ -10,7 +10,7 @@ export const Nav = () => {
     let [inputshow,setInputShow] = useState(false)
     let [tab,setTab] = useState(false)
     window.onscroll = (e) => {
-        if(window.scrollY > 20) setScroll(true)
+        if(window.scrollY > 50) setScroll(true)
         else setScroll(false)
     }
   return (
