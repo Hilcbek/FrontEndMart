@@ -45,7 +45,7 @@ export const Catagories = () => {
         }
     ]
   return (
-    <div className='w-11/12 mx-auto grid xs:grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-1 py-5 xl:max-h-screen xl:overflow-y-scroll'>
+    <div className='w-11/12 mx-auto grid xs:grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-1 py-5'>
         {
             images.map((data) => (
                 <Catagory data={data} />
